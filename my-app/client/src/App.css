@@ -1,0 +1,131 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f7fa;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #1a237e;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #3949ab;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #1976d2;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(25, 118, 210, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background: #1565c0;
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(21, 101, 192, 0.4);
+}
+
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background: #1976d2;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+td {
+  background: #f5f7fa;
+  color: #333;
+}
+
+tr:nth-child(even) td {
+  background: #e8f0fe;
+}
+
+tr:hover td {
+  cursor: pointer;
+}
+
+.results {
+  margin-top: 30px;
+  padding: 20px;
+  background: #e8f0fe;
+  border: 1px solid #1976d2;
+  border-radius: 10px;
+  color: #333;
+  text-align: center;
+}
+
+.results table {
+  margin: 0 auto;
+  width: 60%;
+  border-collapse: collapse;
+  box-shadow: none;
+}
+
+.results th, .results td {
+  border: 1px solid #ddd;
+  padding: 10px 12px;
+  font-size: 16px;
+}
+
+.results th {
+  background: #3949ab;
+  color: #fff;
+}
+
+.results td {
+  background: #ffffff;
+}
+
+.results p {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+  font-weight: 500;
+}
+
